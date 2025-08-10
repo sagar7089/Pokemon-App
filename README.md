@@ -1,12 +1,31 @@
-# React + Vite
+# Pokémon Card App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based web application that displays Pokémon cards using live data from the [Pokémon API](https://pokeapi.co/). The app fetches details like Pokémon name, image, type, stats, and abilities, and renders them in an interactive and responsive card layout.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Fetches real-time Pokémon data from the API
+- Displays name, image, type, stats, and abilities
+- Built using React Hooks (`useState`, `useEffect`)
+- Responsive design for mobile and desktop
+- Clean and minimal UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, CSS
+- **API:** Pokémon API
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone (https://github.com/sagar7089/Pokemon-App.git)
+   cd my-app
+   npm install
+   npm run dev
+🌐 Live Demo
+[Click here to view the app](https://pokemon-cards-sagar.netlify.app/)
+
+🌐 API Reference
+Data is fetched from:
+
+Pokémon API(https://pokeapi.co/api/v2/pokemon)
+
